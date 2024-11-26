@@ -1,0 +1,16 @@
+experiment_name : bert-pre-training
+model_folder : models
+checkpoints_folder : checkpoints
+model_name : bert_
+n_epochs : 50
+batch_size : 512
+max_len : 64
+lr : .00001
+weight_decay : 0.01
+warmup_steps : 100
+hidden_dim : 2048
+dropout : 0.1
+d_model : 768
+n_layers : 8
+n_heads : 12
+
